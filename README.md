@@ -2,9 +2,9 @@
 Companion code for the Aerospike Summit 2022 roadshow presentation "Building with Secondary Indexes and Document API in Aerospike Database 6".
 
 ## Dependencies
-This demonstration includes optional use of the Aerospike gateway's Document
-API (AKA the 'REST client'). If you would like to run `document-api-example.py`
-you need to do get the following:
+This demonstration includes optional use of the [Aerospike gateway's](https://github.com/aerospike/aerospike-client-rest)
+Document API (AKA the 'REST client'). If you would like to run
+`document-api-example.py` you need to do get the following:
 
  - Aerospike Database 6.0
  - Python 3.7+
