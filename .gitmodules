@@ -1,0 +1,3 @@
+[submodule "aerospike-python-rest"]
+	path = aerospike-python-rest
+	url = git@github.com:aerospike-community/aerospike-python-rest.git
