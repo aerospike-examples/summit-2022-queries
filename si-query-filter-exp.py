@@ -30,7 +30,7 @@ query_policy = {
     "partition_filter": {"begin": 0, "count": 4096},
     "expressions": filter_exp}
 query = client.query(options.namespace, options.set)
-query.where(pred.between("dob", 19800101, 1980107))
+query.where(pred.between("dob", 19800101, 19800107))
 query.foreach(counter, query_policy, {"nobins": True})
 print("\nThere are {} female users born in the first week of 1980".format(cnt[0]))
 
