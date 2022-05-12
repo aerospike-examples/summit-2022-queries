@@ -32,3 +32,24 @@ sequence is as follows:
  5. `document-api-example.py` to show an alternative way to add documents
  5. `si-query-filter-exp.py` combining an SI query with a filter expression
  6. `si-query.py` demonstrates an SI query with no filter expression
+
+## Options
+All the scripts support the following options:
+
+```
+optional arguments:
+  --help                Displays this message.
+  -U <USERNAME>, --username <USERNAME>
+                        Username to connect to database.
+  -P <PASSWORD>, --password <PASSWORD>
+                        Password to connect to database.
+  -h <ADDRESS>, --host <ADDRESS>
+                        Address of Aerospike server.
+  -p <PORT>, --port <PORT>
+                        Port of the Aerospike server.
+  -n <NS>, --namespace <NS>
+                        Namespace name to use
+  -s <SET>, --set <SET>
+                        Set name to use.
+  --services-alternate  Use services alternate
+```
